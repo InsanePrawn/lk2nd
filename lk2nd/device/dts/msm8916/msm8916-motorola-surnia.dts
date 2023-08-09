@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #include "msm8916-motorola.dtsi"
 
-/ {
+&lk2nd {
 	qcom,board-id = <0x46 0x8300>;
 
 	model = "Motorola Moto E 2015 LTE (surnia)";
