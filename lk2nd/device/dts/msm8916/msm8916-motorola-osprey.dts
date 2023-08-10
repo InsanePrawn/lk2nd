@@ -6,6 +6,7 @@
 
 	model = "Motorola Moto G 2015 (osprey)";
 	compatible = "motorola,osprey", "qcom,msm8916", "lk2nd,device";
+	lk2nd,dtb-files = "qcom-msm8916-motorola-osprey.dtb", "qcom/msm8916-motorola-osprey.dtb";
 
 	panel {
 		compatible = "motorola,osprey-panel";

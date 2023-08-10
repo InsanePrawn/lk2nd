@@ -6,6 +6,7 @@
 
 	model = "Motorola Moto E 2015 LTE (surnia)";
 	compatible = "motorola,surnia", "qcom,msm8916", "lk2nd,device";
+	lk2nd,dtb-files = "qcom-msm8916-motorola-surnia.dtb", "qcom/msm8916-motorola-surnia.dtb";
 
 	panel {
 		compatible = "motorola,surnia-panel";

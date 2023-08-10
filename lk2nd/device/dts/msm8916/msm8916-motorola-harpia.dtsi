@@ -4,6 +4,7 @@
 &lk2nd {
 	model = "Motorola Moto G4 Play (harpia)";
 	compatible = "motorola,harpia";
+	lk2nd,dtb-files = "qcom-msm8916-motorola-harpia.dtb", "qcom/msm8916-motorola-harpia.dtb";
 
 	panel {
 		compatible = "motorola,harpia-panel", "lk2nd,panel";
